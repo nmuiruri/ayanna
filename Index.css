@@ -1,18 +1,20 @@
 body{
-    background-image: linear-gradient(to bottom right,white,  rgb(243, 226, 249));
-    ;
+    background-image: linear-gradient(to bottom right,white, white);
 }
 .home{
     height:100vh;
     padding: 30px;
-    background-image: linear-gradient(to bottom right,#cfcce0,  rgb(232, 192, 247));
+    background-image: linear-gradient(to bottom right,#1e1d24,  #0a0a0a);
+
+
 }
 
 .products{
-    background-image: linear-gradient(to bottom right,#cfcce0,  rgb(232, 192, 247));
+    background-image: linear-gradient(to bottom right,#2e2c39,  #0a0a0a);
+    padding-bottom: 20%;
 }
 .box{
-    background-image: url(collage\ of\ 2.jpg);
+    background-image: url(purple_evil_eye_necklace.JPG);
     background-position: center;
     background-size:cover;
     cursor:pointer;
@@ -22,13 +24,13 @@ body{
     background-image:url(black_evil_eye_edit.JPG);
 }
 .box:nth-child(3){
-    background-image:url(pink_evil_eye_edit.JPG);
+    background-image:url(pink_blue_heart_necklace.JPG);
 }
 .box:nth-child(4){
     background-image:url(pearly_green_bracelet_edit.JPG);
 }
 .box:nth-child(5){
-    background-image:url(collage\ of\ 3.jpg);
+    background-image:url(pink_evil_eye_edit.JPG);
 }
 .box:nth-child(6){
     background-image:url(sea_blue_bracelet_edit.JPG);
@@ -41,12 +43,10 @@ body{
 }
 
 .product img{
-    height: 330px;
+    height: 350px;
     width: 250px;
     margin-bottom: 15px;
-    border-radius:10px;
     position:relative;
-    z-index: 3;
 }
 .title_g{
     color:white;
@@ -78,8 +78,8 @@ body{
 }
 footer{
     padding:50px;
-    background:#cfcce0;
     display: flex;
+    background-image: linear-gradient(to bottom right,#2e2c39,  #0a0a0a);
     justify-content: space-between;
 
 }

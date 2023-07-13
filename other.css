@@ -10,22 +10,20 @@ body{
 .container{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 450px 450px 450px 400px;
+    grid-template-rows: 450px;
     grid-gap: 40px;
     padding-top: 50px;
     text-align: center;
-    padding-bottom: 110px;
+    padding-bottom: 50px;
     padding-left: 8%;
 }
-
 .decor{
     width:250px;
     height:335px;
     position: relative;
     border-radius:10px;
-    /*background-image: linear-gradient(to bottom right,#cfcce0,  rgb(232, 191, 247));*/    
+    /*background-image: linear-gradient(to bottom right,#cfcce0,  rgb(232, 191, 247));*/
 }
-
 .products{
-    background-image: linear-gradient(to bottom right,white, white);
+    background-image: linear-gradient(to bottom right,white , white);
 }
