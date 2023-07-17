@@ -41,17 +41,10 @@ body{
     background-image: linear-gradient(to bottom right,white , white);
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 576px) {
 
     .container{
-        display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: 450px 450px 450px;
-        grid-gap: 40px;
-        padding-top: 50px;
-        text-align: center;
-        padding-bottom: 50px;
-        padding-left: 8%;
+        grid-template-rows: 400px 400px 400px 400px 400px 400px 400px 400px;
     }
-    
 }

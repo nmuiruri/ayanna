@@ -64,7 +64,7 @@
 }
 
 .social-icons{
-    list-style: none;
+    display: none;
 }
 
 .social-icons li{
@@ -205,7 +205,9 @@ nav ul li a{
     font-size: 20px;
 }
 
-
+.topnav{
+    display: none;
+}
 
 .navbar:hover{
     transform:translateY(-10px);
@@ -258,4 +260,150 @@ footer{
     z-index: 3;
     bottom: 20px;
     left:20px;
+}
+
+.hamburger{
+    display: none;
+    cursor: pointer;
+}
+
+.bar{
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    background-color: #fff;
+}
+
+@media only screen and (max-width: 576px) {
+    
+    .topnav {
+        overflow: hidden;
+        background-color: #333;
+        position: relative;
+    }
+    
+    .logo{
+        font-size:25px;
+    
+    }
+
+    .description h1{
+        font-size: 30px;
+        text-align: center;
+        margin-top: 15%;
+        width: 300px;
+    }
+
+    .description p{
+        font-size: 12px;
+        width:340px;
+        line-height: 40px;    
+    }
+    .home img{
+        width: 230px;
+        height: auto;
+        top: 125%;
+        left:20%;
+        border-radius:10px;
+    }
+    .image img{
+        width: 200px;
+        height: 250px;
+        left: 0px;
+        margin-top: 30%;
+        position: absolute;
+        bottom:20px;
+        left: 20px;
+
+
+        
+    }
+    .border{
+        width:200px;
+        height:250px;
+        border-radius:10px;
+        margin-top: 20%;
+        position: relative;
+    }
+    .title{
+        font-size: 30px;
+        text-align: center;
+        margin-bottom: 5%;
+    }
+
+    .text{
+    padding-top: 0px;
+    padding-left: 70px;
+    }
+    
+    .text p{
+        font-size: 12px;
+        font-weight:600;
+        line-height: 40px;
+    }
+
+    .about{
+        height:120vh;
+        display:flex;
+        flex-direction: column;
+    }
+
+    footer{
+        padding:20px;
+        display: flex;
+        justify-content: none;
+        flex-direction: column;
+    }
+
+    .description{
+        width: 0px;
+        margin-top: 12%;
+    }
+    
+    .hamburger{
+        display: block;
+    }
+
+    .hamburger.active .bar:nth-child(1){
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .hamburger.active .bar:nth-child(2){
+        opacity: 0;
+    }
+
+    .hamburger.active .bar:nth-child(3){
+        transform: translateY(-8px) rotate(-45deg);
+    }
+    
+    .navbar{
+        display: flex;
+        align-items: center;
+        background-image: none;
+        margin-top: 10%;
+        padding-left: 40px;
+        padding-right: 40px;
+        justify-content: space-around;
+
+    }
+    
+    nav{
+        display:none;
+    }
+    nav.active{
+        text-align: center;
+        display: flex;
+        padding-left: 10%;
+    }
+    
+    nav ul li{
+        display:inline;
+    }
+    
+    nav ul li a{
+        font-size: 16px;
+    }
+        
+    
 }

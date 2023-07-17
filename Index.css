@@ -42,6 +42,10 @@ body{
     background-image:url(green_star_necklace_edit.JPG);
 }
 
+.box:nth-child(9){
+    background-image:none;
+}
+
 .product img{
     height: 350px;
     width: 250px;
@@ -76,10 +80,35 @@ body{
     padding-top: 5px;
     text-align: center;
 }
-footer{
-    padding:50px;
-    display: flex;
-    background-image: linear-gradient(to bottom right,#2e2c39,  #0a0a0a);
-    justify-content: space-between;
 
+@media only screen and (max-width: 576px) {
+    .home{
+        height:200vh;
+    }
+
+    .title_g{
+        font-size: 30px;
+        font-weight:  100;
+        letter-spacing: 3px;
+        margin-bottom: 20px;
+        text-align: center;
+        padding-top: 50px;
+    }
+
+    .product img{
+        height: 150px;
+        width: 100px;
+        left:0px;
+    }
+
+    .gallery{
+        height:120vh;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-auto-rows: 150px;
+        padding-bottom: 30%;
+    }
+
+    .box:nth-child(9){
+        background-image:url(gold_butterfly_necklace.JPG);
+    }
 }
