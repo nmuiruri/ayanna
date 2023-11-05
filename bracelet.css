@@ -45,6 +45,6 @@ body{
 
     .container{
         grid-template-columns: 1fr;
-        grid-template-rows: 400px 400px 400px 400px 400px 400px 400px 400px;
+        grid-template-rows: 400px 400px 400px 400px 400px 400px 400px 400px 400px;
     }
 }
