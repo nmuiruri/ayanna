@@ -25,7 +25,12 @@ body{
     border-radius:10px;
     /*background-image: linear-gradient(to bottom right,#cfcce0,  rgb(232, 191, 247));*/    
 }
-
+.sale{
+    text-decoration: overline;
+}
+.red{
+    color:#db1009 ;
+}
 .products{
     background-image: linear-gradient(to bottom right,white, white);
 }

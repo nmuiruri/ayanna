@@ -18,6 +18,13 @@ body{
     padding-left: 8%;
 }
 
+.sale{
+    text-decoration: overline;
+}
+.red{
+    color:#db1009 ;
+}
+
 .decor{
     width:250px;
     height:335px;
